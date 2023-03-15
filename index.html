@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta charset="author" content="Saulo Klein Nery"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <title>Desafio 1 Landing Page</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="./styles/main.css"/>
+    </head>
+
+    <body>
+
+        <header class="page-header">
+            <a href="#">
+                <img src="./assets/svgs/m3-logo.svg" alt="Logo da M3">
+            </a>
+        </header>
+
+        <main>
+            <picture>
+                <source media="(max-width: 1024px)" srcset="./assets/imgs/main-banner-mobile.png">
+                <source media="(min-width: 1025px)" srcset="./assets/imgs/main-banner-desktop.png">
+                <img class="main-banner" src="./assets/imgs/main-banner-desktop.png" alt="Banner Principal">
+            </picture>
+
+            <section class="top-infocard">
+                <div class="top-infocard-text">
+                    <h2 class="top-infocard-subtitle">
+                        Lorem ipsum
+                    </h2>
+
+                    <h1 class="top-infocard-title">
+                        dolor sit amet
+                    </h1>
+
+                    <p class="top-infocard-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras euismod enim non dui fringilla interdum. Curabitur ut tortor sed lacus egestas vulputate vel sit amet velit. Nulla suscipit magna dui.
+                    </p>
+                </div>
+
+                <figure class="top-infocard-figure">
+                    <img class="top-infocard-image" src="./assets/svgs/top-infocard-image.svg" alt="Imagem do Infocard Superior">
+                </figure>
+            </section>
+
+            <section class="top-cards">
+                    <figure class="top-card">
+                        <img class="top-card-image" src="./assets/svgs/top-card01.svg" alt="Imagem do Primeiro Card Superior">
+
+                        <figcaption class="top-card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras euismod enim non dui fringilla interdum.
+                        </figcaption>
+                    </figure>
+
+                    <figure class="top-card">
+                        <img class="top-card-image" src="./assets/svgs/top-card02.svg" alt="Imagem do Segundo Card Superior">
+
+                        <figcaption class="top-card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras euismod enim non dui fringilla interdum.
+                        </figcaption>
+                    </figure>
+
+                    <figure class="top-card">
+                        <img class="top-card-image" src="./assets/svgs/top-card03.svg" alt="Imagem do Terceiro Card Superior">
+
+                        <figcaption class="top-card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras euismod enim non dui fringilla interdum.
+                        </figcaption>
+                    </figure>
+            </section>
+
+            <section class="middle-card-images">
+                <div class="middle-card-images-wrapper">
+                    <figure>
+                        <img class="middle-card-image" src="./assets/svgs/middle-card-image01.svg" alt="Imagem do Primeiro Card Central">
+                    </figure>
+
+                    <figure id="middle-card02">
+                        <img class="middle-card-image" src="./assets/svgs/middle-card-image02.svg" alt="Imagem do Segundo Card Central">
+                    </figure>
+
+                    <figure id="middle-card03">
+                        <img class="middle-card-image" src="./assets/svgs/middle-card-image03.svg" alt="Imagem do Terceiro Card Central">
+                    </figure>
+                </div>
+            </section>
+
+            <section class="bottom-cards">
+                    <figure class="bottom-card">
+                        <img class="bottom-card-image" src="./assets/svgs/bottom-card-image01.svg" alt="Imagem do Primeiro Card Inferior">
+
+                        <figcaption class="bottom-card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras euismod enim non dui fringilla interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras euismod enim non dui fringilla interdum.
+                        </figcaption>
+                    </figure>
+
+                    <figure class="bottom-card">
+                        <img class="bottom-card-image" src="./assets/svgs/bottom-card-image02.svg" alt="Imagem do Segundo Card Inferior">
+
+                        <figcaption class="bottom-card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras euismod enim non dui fringilla interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras euismod enim non dui fringilla interdum.
+                        </figcaption>
+                    </figure>
+
+                    <figure class="bottom-card">
+                        <img class="bottom-card-image" src="./assets/svgs/bottom-card-image03.svg" alt="Imagem do Terceiro Card Inferior">
+
+                        <figcaption class="bottom-card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras euismod enim non dui fringilla interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras euismod enim non dui fringilla interdum.
+                        </figcaption>
+                    </figure>
+
+                    <figure class="bottom-card">
+                        <img id="bottom-card-image04" class="bottom-card-image" src="./assets/svgs/bottom-card-image04.svg" alt="Imagem do Quarto Card Inferior">
+
+                        <figcaption class="bottom-card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras euismod enim non dui fringilla interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras euismod enim non dui fringilla interdum.
+                        </figcaption>
+                    </figure>
+            </section>
+
+            <article class="bottom-article">
+                <div class="bottom-article-text">
+                    <h2 class="bottom-article-title">
+                        Lorem ipsum dolor sit amet
+                    </h2>
+
+                    <p class="bottom-article-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate sapien non libero faucibus interdum. In eget tincidunt ipsum.
+                        Quisque  a tellus at lectus blandit tempor. Ut tristique auctor mi eget hendrerit. Curabitur venenatis felis vitae sagittis venenatis.
+                        Donec finibus turpis vitae lectus interdum rutrum vitae sed augue.
+                    </p>
+                </div>
+
+                <picture class="bottom-article-picture">
+                    <source media="(max-width: 1024px)" srcset="./assets/imgs/bottom-banner-mobile.png">
+                    <source media="(min-width: 1025px)" srcset="./assets/imgs/bottom-banner-desktop.png">
+                    <img class="bottom-banner" src="./assets/imgs/bottom-banner-desktop.png" alt="Banner Inferior">
+                </picture>
+            </article>
+        </main>
+
+        <footer class="page-footer">
+            <ul class="footer-list">
+                <li>
+                    <a href="https://www.instagram.com/m3.ecommerce/?theme=dark">
+                        <img src="./assets/svgs/instagram-icon.svg" alt="Ícone do Instagram">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="pt-br.facebook.com/digitalm3/">
+                        <img src="./assets/svgs/facebook-icon.svg" alt="Ícone do Facebook">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.youtube.com/channel/UCW4o86gZG_ceA8CmHltXeXA/featured">
+                        <img src="./assets/svgs/youtube -icon.svg" alt="Ícone do Youtube">
+                    </a>
+                </li>
+            </ul>
+
+            <p class="footer-text">
+                Copyright © 2020 - Loja  Comércio Eletrônico CNPJ: 000.000.000/0001-00
+            </p>
+        </footer>
+
+    </body>
+
+</html>
